@@ -37,21 +37,17 @@
 </dependency>
 </dependencies>
 <scm>
-<connection>scm:svn:http://192.168.33.11:8081/subversion/</connection>
-<developerConnection>scm:svn:http://192.168.33.11:8081/subversion/</developerConnection>
+<connection>scm:http://localhost:8081/</connection>
+<developerConnection>scm:http://localhost:8081/</developerConnection>
 </scm>
 <distributionManagement>
-<repository>
-<id>ARTECH</id>
-<url>
-http://localhost:8081/nexus/content/repositories/ARTECH/
-</url>
-</repository>
-<snapshotRepository>	
-<id>pcr</id>
-<url>
-http://localhost:8081/nexus/content/repositories/PCR/
-</url>
-</snapshotRepository>
+  <repository>
+    <id>artech</id>
+    <url>http://localhost:8081/nexus/content/repositories/artech</url>
+  </repository>
+  <snapshotRepository>
+    <id>artech_snapshot</id>
+    <url>http://localhost:8081/nexus/content/repositories/artech_snapshot</url>
+  </snapshotRepository>
 </distributionManagement>
 </project>
