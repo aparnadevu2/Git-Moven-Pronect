@@ -222,13 +222,13 @@
 <repository>
 <id>artech</id>
 <url>
-http://localhost:8081/nexus/content/repositories/ARTECH/
+http://localhost:8081/nexus/content/repositories/artech/
 </url>
 </repository>
 <snapshotRepository>	
 <id>pcr</id>
 <url>
-http://localhost:8081/nexus/content/repositories/artech_snapshots/
+http://localhost:8081/nexus/content/repositories/artech_snapshot/
 </url>
 </snapshotRepository>
 </distributionManagement>
