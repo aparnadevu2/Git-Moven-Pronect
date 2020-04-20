@@ -228,7 +228,7 @@ http://localhost:8081/nexus/content/repositories/ARTECH/
 <snapshotRepository>	
 <id>pcr</id>
 <url>
-http://localhost:8081/nexus/content/repositories/PCR/
+http://localhost:8081/nexus/content/repositories/artech_snapshot/
 </url>
 </snapshotRepository>
 </distributionManagement>
